@@ -1,0 +1,49 @@
+.topo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.forca{
+  width: 400px;
+  margin-left: 50px;
+}
+
+.escolher{
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+/*alfabeto*/
+.alfabetoInteiro{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.alfabeto{
+  background-color: rgb(166, 174, 174);
+  color: rgb(81, 84, 84);
+  width: 65px;
+  height: 50px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.separa{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
