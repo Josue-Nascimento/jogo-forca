@@ -1,15 +1,21 @@
+.topoGeral > p{
+    position: absolute;
+    right: 50px;
+}
+
 .topo{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 30px;
 }
 
-.forca{
-  width: 400px;
-  margin-left: 50px;
+.topoOne{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.escolher{
+.topoOne > h1{
   width: 150px;
   height: 50px;
   background-color: green;
@@ -21,29 +27,66 @@
   margin-right: 50px;
 }
 
-/*alfabeto*/
-.alfabetoInteiro{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.topoOne > p{
+  font-size: 40px;
+}
+.topo > img{
+  width: 300px;
 }
 
+.lista{
+  display: flex;
+}
 
-.alfabeto{
-  background-color: rgb(166, 174, 174);
-  color: rgb(81, 84, 84);
-  width: 65px;
-  height: 50px;
-  font-size: 50px;
+.lista > p{
+  font-size: 30px;
+  margin: 5px;
+}
+
+/*alfabeto*/
+
+.chefeAlfabeto{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.separa{
+  width: 56%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  margin: 20px;
+  flex-wrap: wrap;
+  
+}
+.alfabeto{
+  width: 60px;
+  height: 45px;
+  font-size: 20px;
+  margin-left: 5px;
 }
 
-.separa{
+/*chute*/
+.chute{
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.chute > input{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.chute > button{
+  background-color: rgba(175, 224, 224, 0.361);
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 1px solid rgba(17, 196, 136, 0.705);
 }
